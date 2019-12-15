@@ -18,7 +18,6 @@ class CreateLocationsTable extends Migration
             $table->string('city', 58);
             $table->time('time');
             $table->timestamps();
-            $table->unique(['city', 'time']);
         });
     }
 
