@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.world {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/images/worldmap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
+}
+
+.front {
+    font-family: 'Mountains of Christmas', serif !important;
+    font-size: 1.5rem;
+
+    .card-header {
+        background-color: #CC231E;
+    }
+}
